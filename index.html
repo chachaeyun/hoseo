@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- 제이쿼리 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- 사용자 자바스크립트 -->
+    <script src="js/main.js"></script>
 </head>
 <body>
     <!-- 헤더영역 -->
     <header id="main_header">
+        <div id="ex"></div>
         <div class="container">
             <h1><a href="#"><img src="http://via.placeholder.com/180x50" alt="logo"></a></h1>
             <nav id="main_gnb">
@@ -39,7 +44,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">일반진료안내</a>
+                        <a href="#">진료안내</a>
                         <ul class="depth2">
                             <li><a href="#">영상의학과</a></li>
                             <li><a href="#">외과</a></li>
@@ -73,23 +78,132 @@
     <div id="sub_info">
         <div class="container">
             <div class="col1">
-                
+                <p class="box">진료<br>안내</p>
+                <span> 02 3665 1870</span>
+                <p class="time">평일 오전 9시 ~ 오후 6시 | 토요일 오전 9시 ~ 오후 2시</p>
             </div>
             <div class="col2 col">
-
+                <a href="#">
+                    <img src="images/i1.jpg" alt="">
+                    <p class="sub_name">줄기세포치료</p>
+                </a>
             </div>
             <div class="col3 col">
-
+                <a href="#">
+                    <img src="images/i2.jpg" alt="">
+                    <p class="sub_name">혈액투석</p>
+                </a>
             </div>
             <div class="col4 col">
-
+                <a href="#">
+                    <img src="images/i3.jpg" alt="">
+                    <p class="sub_name">CT/MRI영상센터</p>
+                </a>
             </div>
             <div class="col5 col">
-
+                <a href="#">
+                    <img src="images/i4.jpg" alt="">
+                    <p class="sub_name">고양이치과</p>
+                </a>
             </div>
             <div class="col6 col">
-
+                <a href="#">
+                    <img src="images/i5.jpg" alt="">
+                    <p class="sub_name">고양이수술센터</p>
+                </a>
             </div>
+        </div>
+    </div>
+    <!-- 메인컨텐츠 -->
+    <div id="main_contents">
+        <div class="container">
+            <div class="con1">
+                <p>아픈 반려동물에게 한줄기 빛이 되겠습니다.</p>
+                <span>호서동물병원의 약속</span>
+                <a href="#">자세히 보기 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+            </div>
+            <div class="con con2">
+                <span>interior</span>
+                <a href="#"><p>병원둘러보기</p></a>
+            </div>
+            <div class="con con3">
+                <span>medical staff</span>
+                <a href="#"><p>의료진소개</p></a>
+            </div>
+            <div class="con con4">
+                <span>equipment</span>
+                <a href="#"><p>장비소개</p></a>
+            </div>
+        </div>
+    </div>
+    <!-- 센터목록 -->
+    <div id="center">
+        <div class="center_wrap">
+            <a href="#" class="center">
+                <p>골관절센터</p>
+            </a>
+            <a href="#" class="center">
+                <p>종양센터</p>
+            </a>
+            <a href="#" class="center">
+                <p>심장센터</p>
+            </a>
+            <a href="#" class="center">
+                <p>줄기세포센터</p>
+            </a>
+        </div>
+    </div>
+    <!-- 게시판 -->
+    <div id="board">
+        <div class="container">
+            <section class="notice">
+                <h2>호서 공지사항</h2>
+                <div class="line"></div>
+                <ul>
+                    <li>
+                        <a href="#">방광이행상피암 진단에 유용한 'v-BTA' 도입</a>
+                        <span class="date">2020.01.02</span>
+                    </li>
+                    <li>
+                        <a href="#">호서 건강검진 프로그램 안내</a>
+                        <span class="date">2019.12.24</span>
+                    </li>
+                    <li>
+                        <a href="#">호서 수의사 인턴 모집 공고</a>
+                        <span class="date">2019.12.20</span>
+                    </li>
+                    <li>
+                        <a href="#">호서동물병원 주차장 안내</a>
+                        <span class="date">2019.12.02</span>
+                    </li>
+                    <li>
+                        <a href="#">국내 처방식 사료 velixer 입고 안내</a>
+                        <span class="date">2019.11.22</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="review">
+                <h2>호서 수술사례</h2>
+                <div class="line"></div>
+                <ul>
+                    <li>
+                        <a href="#">- 강아지 요척골 골절수술 후 재골절 수술후기</a>
+                        <span class="text">메리는 10일전에 강아지 요척골 골절로 지역병원에서 핀을 삽입하여 교정하는 수술을 받았다고 해요. 이후 입원치료 없이 집에서 관리해주시면서 자주 밖에서 산책을</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">- 강아지가 개껌을 사켰을 때 '식도이물제거' 진료후기</a>
+                        <span class="text">마루는 간식으로 개껌을 먹고 난 후 기침과 호흡곤란, 구토증상을 보여 호서 동물병원에 내원하게 되었습니다. 아무래도 개껌이 목에 걸린 것 같다고 추정할 수는 있었지만 </span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">- 고양이 비닐섭취 선형 이물제거 후기</a>
+                        <span class="text">고양이들은 박스나 비닐 같은 무언가 담는 물건을 이상하리만큼 좋아하죠? 그중에서도 비닐은 잘못 삼키게되어 병원에 내원하는 경우가 적지않게 있습니다. 오늘은 이물제거에 </span>
+                    </li>
+                </ul>
+            </section>
         </div>
     </div>
 </body>
