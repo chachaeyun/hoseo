@@ -80,9 +80,61 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     margin-left: 20px;
 }
 
+/* 아래베너 */
+#bottom{
+    position: relative;
+    clear: both;
+    /* outline: 1px solid red; */
+    min-swidth: 1920px; height: 500px;
+    margin: 0 auto;
+    background-image: url("../images/buttom.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+#bottom .text{
+    color: #fff;
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: calc(30%);
+    top: calc(35%);
+    text-align: center;
+    line-height: 2.5em;
+}
+#bottom .text h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+#bottom .text p{
+    font-size: 20px;
+}
+#bottom .button{
+    /* outline: 1px solid green; */
+    position: absolute;
+    left: calc(28%);
+    top: calc(65%);
+}
+#bottom .button a{
+    border: 2px solid #fff;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    color: #fff;
+}
+#bottom .button a:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+#bottom .button a i{
+    padding-left: 10px;
+}
+
 /* 푸터 */
 #main_footer{
-    margin-bottom: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background: #fafafa;
 }
 #main_footer .line{
     width: 100%;
@@ -111,11 +163,11 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     padding: 15px 20px;
 }
 #main_footer .container li:hover{
-    background: #ccc;
+    background: rgb(238, 238, 238);
 }
 #main_footer .container li a span{
     float: right;
-    color: rgb(215, 215, 215);
+    color: #817a81;
 }
 #main_footer .footer_wrap{
     position: relative;
@@ -128,7 +180,6 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 #main_footer .footer_wrap .big{
     display: block;
-    font-size: 25px;
     font-weight: bold;
     padding-bottom: 15px;
 }
@@ -138,7 +189,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 #main_footer .footer_wrap .icon{
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 0;
 }
 #main_footer .footer_wrap .icon img{
@@ -153,16 +204,17 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 #main_footer .footer_wrap .black{
     padding: 0;
-    color: black;
+    color: #888;
 }
 #main_footer .footer_wrap .phone{
     position: absolute;
     right: 0;
-    bottom: 0px;
+    bottom: -7px;
 }
 #main_footer .footer_wrap .phone .number{
+    margin-left: 10px;
     font-size: 30px;
-    color: black;
+    color: #888;
     font-weight: bold;
     padding: 0;
 }
