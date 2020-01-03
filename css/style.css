@@ -26,8 +26,11 @@ body{
 }
 #main_header h1{
     float: left;
-    outline: 1px solid red;
-    margin-top: 2px;
+    /* outline: 1px solid red; */
+    margin-top: 5px;
+}
+#main_header h1 img{
+    height: 50px;
 }
 /* 메인메뉴 */
 #main_gnb .depth1 {
@@ -127,10 +130,12 @@ body{
     color: #3690ce;
     font-size: 40px;
     font-weight: bolder;
+    padding-left: 10px;
 }
 #sub_info .col1 .time{
     font-size: 14px;
-    margin-left: 28px;
+    margin-left: 31px;
+    margin-top: 5px;
 }
 #sub_info .col img{
     margin-top: 15px;
