@@ -86,22 +86,24 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 #rocation .container .m_roc span{
     font-weight: bold;
+    line-height: 30px;
 }
 #rocation .container .m_roc p{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 #rocation .container .b_roc span{
     font-weight: bold;
+    line-height: 30px;
 }
 #rocation .container .b_roc p{
-    padding-bottom: 7px;
+    padding-bottom: 15px;
 }
 #rocation .container .c_roc span{
     font-weight: bold;
-    padding-bottom: 10px;
+    line-height: 30px;
 }
 #rocation .container .c_roc p{
-    line-height: 30px;
+    line-height: 25px;
 }
 /* 아래베너 */
 #bottom{
