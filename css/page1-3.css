@@ -40,17 +40,28 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     margin-bottom: 30px;
 }
 #map .container .rotation{
-    background: #f4f5f9;
+    background: #f4fbff;
 }
 #map .container .address{
+    font-size: 20px;
     text-align: left;
-    padding: 40px 20px;
+    padding: 40px 70px;
 }
 #map .container .address th{
     padding-right: 20px;
+    padding-bottom: 10px;
+}
+#map .container .address td{
+    padding-bottom: 10px;
+}
+#map .container .address th:last-child{
+    padding-bottom: 0;
 }
 #map .container .address th .right{
     float: right;
+}
+#map .container .address .gray{
+    color: #aaa;
 }
 #map .container .address .call{
     font-size: 20px;
@@ -75,10 +86,10 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 #rocation .container div div{
     width: 350px;
-    height: 200px;
+    height: 250px;
     background: #fff;
     text-align: left;
-    padding: 50px 20px;
+    padding: 20px 20px;
     margin-left: 20px;
 }
 #rocation .container div i{
