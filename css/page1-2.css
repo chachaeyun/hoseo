@@ -22,6 +22,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     font-size: 60px;
     font-weight: bold;
     color: white;
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
 }
 #banner p span{
     color: #fcc046;
@@ -46,9 +47,13 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     width: 1200px;
     margin: 0 auto;
     padding-bottom: 100px;
+    position: relative;
 }
 
 /* 서비스 */
+#service{
+    padding-bottom: 100px;
+}
 #service .container ul{
     margin-bottom: 60px;
 }
@@ -58,18 +63,16 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     margin-bottom: 20px;
 }
 #service .container .h span{
-    color: #2d62b2;
+    color: #3690ce;
 }
-#service .container .h i{
-    color: #2d62b2;
+#service .container .h .dot{
     padding-right: 10px;
-    font-size: 14px;
-    font-weight: 500;
 }
 #service .container ul p{
     font-size: 17px;
     line-height: 30px;
     color: #817a81;
+    padding-left: 35px;
 }
 
 
@@ -78,7 +81,9 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     position: relative;
     clear: both;
     /* outline: 1px solid red; */
-    min-swidth: 1920px; height: 500px;
+    min-width: 1200px;
+    max-width: 1920px; 
+    height: 500px;
     margin: 0 auto;
     background-image: url("../images/buttom.jpg");
     overflow: hidden;
@@ -89,8 +94,9 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     color: #fff;
     text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: calc(30%);
-    top: calc(35%);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
     text-align: center;
     line-height: 2.5em;
 }
@@ -104,8 +110,9 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #bottom .button{
     /* outline: 1px solid green; */
     position: absolute;
-    left: calc(28%);
-    top: calc(65%);
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -50%);
 }
 #bottom .button a{
     border: 2px solid #fff;
@@ -220,4 +227,15 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .bx-wrapper{
     border: none !important;
     box-shadow: none !important;
+}
+.bx-wrapper .bx-controls-direction a{
+    width: 55px !important;
+    height: 55px !important;
+}
+.bx-wrapper .bx-next{
+    background: url('../images/control2-1.png') no-repeat !important;
+
+}
+.bx-wrapper .bx-prev{
+    background: url('../images/control1-1.png') no-repeat !important;
 }

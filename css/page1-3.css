@@ -9,7 +9,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url(../images/b2.jpg);
+    background-image: url(../images/b4.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 100px;
@@ -22,9 +22,11 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     font-size: 60px;
     font-weight: bold;
     color: white;
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
 }
 #banner p span{
     color: #fcc046;
+    padding-left: 30px;
 }
 
 /* 지도 */
@@ -58,7 +60,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 /* 대중교통 */
 #rocation{
-    background: #e7f2f8;
+    background: #f4fbff;
     overflow: hidden;
     text-align: center;
     margin-bottom: 100px;
@@ -79,13 +81,36 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     padding: 50px 20px;
     margin-left: 20px;
 }
-
+#rocation .container div i{
+    padding-right: 10px;
+}
+#rocation .container .m_roc span{
+    font-weight: bold;
+}
+#rocation .container .m_roc p{
+    padding-bottom: 10px;
+}
+#rocation .container .b_roc span{
+    font-weight: bold;
+}
+#rocation .container .b_roc p{
+    padding-bottom: 7px;
+}
+#rocation .container .c_roc span{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#rocation .container .c_roc p{
+    line-height: 30px;
+}
 /* 아래베너 */
 #bottom{
     position: relative;
     clear: both;
     /* outline: 1px solid red; */
-    min-swidth: 1920px; height: 500px;
+    min-width: 1200px;
+    max-width: 1920px;
+    height: 500px;
     margin: 0 auto;
     background-image: url("../images/buttom.jpg");
     overflow: hidden;
@@ -96,8 +121,9 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     color: #fff;
     text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: calc(30%);
-    top: calc(35%);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
     text-align: center;
     line-height: 2.5em;
 }
@@ -111,8 +137,9 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #bottom .button{
     /* outline: 1px solid green; */
     position: absolute;
-    left: calc(28%);
-    top: calc(65%);
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -50%);
 }
 #bottom .button a{
     border: 2px solid #fff;
