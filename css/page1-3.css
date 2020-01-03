@@ -1,8 +1,84 @@
 *{margin: 0; padding: 0;}
 li{list-style-type: none;}
-a{text-decoration: none;}
-body{font-family: 'Noto Sans KR', sans-serif;}
+a{text-decoration: none; color:#000;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 17px;}
 .container{width: 1200px; margin:0 auto;}
+
+/* 헤더 */
+#main_header{
+    width: 100%;
+    height: 67px;
+    /* background: #ccc; */
+}
+#main_header h1{
+    float: left;
+    /* outline: 1px solid red; */
+    margin-top: 5px;
+}
+#main_header h1 img{
+    height: 50px;
+}
+/* 메인메뉴 */
+#main_gnb .depth1 {
+    margin-top: 19px;
+    text-align: center;
+    float: right;
+    line-height: 30px;
+}
+#main_gnb .depth1 > li{
+    position: relative;
+    float: left;
+    width: 130px;
+    line-height: 30px;
+    z-index: 99;
+}
+#main_gnb .depth1 > li >a{
+    display: block;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+    transition: 0.4s;
+}
+#main_gnb .depth1 > li >a:hover{
+    border-bottom: 3px solid #3690ce;
+}
+#main_gnb .depth1  li a:hover{
+    color: #3690ce;
+}
+#main_gnb .depth2{
+    padding-top: 10px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    /* border-right: 1px solid #ccc; */
+    transition: 0.4s;
+}
+#main_gnb .depth2.show{
+    height: 200px;
+    overflow: hidden;
+}
+#main_gnb .depth2 a{
+    display: block;
+}
+#ex{
+    position: absolute;
+    top: 67px;
+    width: 100%;
+    height: 0;
+    background: #fff;
+    z-index: 99;
+    transition: 0.4s;
+    /* border-top: 3px solid #ccc; */
+  }
+  #ex.show {
+      height: 200px;
+      background: #fff;
+  }
+
 
 /* 배너 */
 #banner{
@@ -22,7 +98,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     font-size: 60px;
     font-weight: bold;
     color: white;
-    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 #banner p span{
     color: #fcc046;
@@ -116,13 +192,14 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #rocation .container .c_roc p{
     line-height: 25px;
 }
+
 /* 아래베너 */
 #bottom{
     position: relative;
     clear: both;
     /* outline: 1px solid red; */
+    max-width: 1920px; 
     min-width: 1200px;
-    max-width: 1920px;
     height: 500px;
     margin: 0 auto;
     background-image: url("../images/buttom.jpg");
@@ -134,7 +211,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     color: #fff;
     text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 50%;
+    left: 50%; 
     top: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -150,7 +227,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #bottom .button{
     /* outline: 1px solid green; */
     position: absolute;
-    left: 50%;
+    left: 48%; 
     top: 64%;
     transform: translate(-50%, -50%);
 }

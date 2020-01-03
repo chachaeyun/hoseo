@@ -13,4 +13,14 @@ $(function(){
     $('#ex').removeClass('show');
   });
 
+  $('.bxslider').bxSlider({
+
+  });
+});
+
+// bxslider
+$(function(){
+  $('.bxslider').bxSlider({
+    auto: true
+  });
 });
