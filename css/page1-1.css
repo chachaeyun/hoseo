@@ -74,8 +74,9 @@ body{
     color: #fff;
     font-size: 60px;
     position: absolute;
-    left: calc(44%);
-    top: calc(40%);
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 #main_banner h1 span{
@@ -323,7 +324,9 @@ body{
     position: relative;
     clear: both;
     /* outline: 1px solid red; */
-    min-swidth: 1920px; height: 500px;
+    max-width: 1920px; 
+    min-width: 1200px;
+    height: 500px;
     margin: 0 auto;
     background-image: url("../images/buttom.jpg");
     overflow: hidden;
@@ -334,8 +337,9 @@ body{
     color: #fff;
     text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: calc(30%);
-    top: calc(35%);
+    left: 50%; 
+    top: 40%;
+    transform: translate(-50%, -50%);
     text-align: center;
     line-height: 2.5em;
 }
@@ -349,8 +353,9 @@ body{
 #bottom .button{
     /* outline: 1px solid green; */
     position: absolute;
-    left: calc(28%);
-    top: calc(65%);
+    left: 48%; 
+    top: 64%;
+    transform: translate(-50%, -50%);
 }
 #bottom .button a{
     border: 2px solid #fff;
