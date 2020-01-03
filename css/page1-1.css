@@ -210,6 +210,14 @@ body{
 }
 #sub .menu .menu_1 img{
     float: left;
+    transition: 0.4s;
+}
+#sub .menu .menu_1 .img_wrap{
+    overflow: hidden;
+    height: 250px;
+  }
+#sub .menu .menu_1 img:hover{
+    transform: scale(1.1, 1.1);
 }
 #sub .menu .menu_1 .text{
     float: left;
@@ -249,6 +257,14 @@ body{
 }
 #sub .menu .menu_2 img{
     float: left;
+    transition: 0.4s;
+}
+#sub .menu .menu_2 .img_wrap{
+    overflow: hidden;
+    height: 250px;
+  }
+#sub .menu .menu_2 img:hover{
+    transform: scale(1.1, 1.1);
 }
 #sub .menu .menu_2 .text{
     float: left;
@@ -289,6 +305,14 @@ body{
 }
 #sub .menu .menu_3 img{
     float: left;
+    transition: 0.4s;
+}
+#sub .menu .menu_3 .img_wrap{
+    overflow: hidden;
+    height: 250px;
+  }
+#sub .menu .menu_3 img:hover{
+    transform: scale(1.1, 1.1);
 }
 #sub .menu .menu_3 .text{
     float: left;
