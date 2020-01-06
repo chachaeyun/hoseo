@@ -31,6 +31,9 @@
     <script src="js/jquery.bxslider.min.js"></script>
     <!-- 사용자 자바스크립트 -->
     <script src="js/maingnb.js"></script>
+    <!-- api -->
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
 </head>
 <body>
     <!-- 헤더영역 -->
@@ -298,10 +301,25 @@
     <div class="float">
         <a href="#" class="float16"><img src="images/f_call.png" alt=""> 3662.1870</a>
         <a href="#" class="floatmenu"><img src="images/f_map.png" alt=""> 오시는길</a>
-        <a href="#" class="floatmenu"><img src="images/f_talk.png" alt=""> 카톡상담</a>
+        <a href="javascript:void addChannel()" class="floatmenu"><img src="images/f_talk.png" alt=""> 카톡상담</a>
         <a href="#" class="floatmenu"><img src="images/f_insta.png" alt=""> 인스타그램</a>
         <a href="#" class="floatmenu"><img src="images/f_pc.png" alt=""> 온라인상담</a>
         <a href="#" class="float16"><img src="images/f_top.png" alt=""> TOP</a>
     </div>
+
+
+    <!-- 카카오톡 api 스크립트 -->
+    <script type='text/javascript'>
+        //<![CDATA[
+          // 사용할 앱의 JavaScript 키를 설정해 주세요.
+          Kakao.init('8497101d45f98185da30d67bd8ee5362');
+          function addChannel() {
+            Kakao.Channel.addChannel({
+              channelPublicId: '_xcLqmC' // 채널 홈 URL에 명시된 id로 설정합니다.
+            });
+          }
+        //]]>
+      </script>
+
 </body>
 </html>
