@@ -344,12 +344,15 @@ body{
 }
 .review ul .text{
     margin-top: 7px;
-    display: inline-block;
-    height: 40px;
+    display: block;
+    height: 43px;
     font-size: 14px;
     color: #666;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
 }
 /* 아래베너 */
 #bottom{
