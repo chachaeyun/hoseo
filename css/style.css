@@ -136,6 +136,10 @@ body{
     font-size: 20px;
     border-left: 1px solid #ccc;
 }
+#sub_info .col .sub_name{
+    display: inline-block;
+    margin-top: 85px;
+}
 #sub_info .col:hover a{
     color: #3690ce;
 }
@@ -165,13 +169,41 @@ body{
 #sub_info .col img{
     margin-top: 15px;
 }
+/* col배경 및 호버 */
+.col2{
+    background-image: url(../images/sub_info1.jpg);
+}
+.col2:hover{
+    background-image: url(../images/sub_info1-1.jpg);
+}
+.col3{
+    background-image: url(../images/sub_info2.jpg);
+}
+.col3:hover{
+    background-image: url(../images/sub_info2-1.jpg);
+}
+.col4{
+    background-image: url(../images/sub_info3.jpg);
+}
+.col4:hover{
+    background-image: url(../images/sub_info3-1.jpg);
+}
+.col5{
+    background-image: url(../images/sub_info4.jpg);
+}
+.col5:hover{
+    background-image: url(../images/sub_info4-1.jpg);
+}
+.col6{
+    background-image: url(../images/sub_info5.jpg);
+}
+.col6:hover{
+    background-image: url(../images/sub_info5-1.jpg);
+}
 /* 메인 컨텐츠 */
 #main_contents{
     padding-top: 50px;
     clear: both;
-}
-#main_contents .container{
-
 }
 #main_contents .con1{
     width: 1200px; height: 300px;
@@ -276,7 +308,7 @@ body{
     display: block;
     width: 100px;
     margin-left: 230px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     border-bottom: 3px solid #3690ce;
 }
 #board{
