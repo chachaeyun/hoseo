@@ -13,14 +13,14 @@ $(function(){
     $('#ex').removeClass('show');
   });
 
-  $('.bxslider').bxSlider({
-
-  });
 });
 
 // bxslider
 $(function(){
   $('.bxslider').bxSlider({
-    auto: true
+    pager: false,
+    pause: 4000,            // 정지시간(대기)
+    auto: true,             // 자동재생
+    easing: "ease-in-out"  // 가속도(timing-function)
   });
 });
