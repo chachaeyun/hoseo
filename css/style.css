@@ -230,6 +230,9 @@ body{
     margin-left: 40px;
     margin-top: 70px;
 }
+#main_contents .con1 a:hover{
+    background: rgba(255, 255, 255, 0.7);
+}
 #main_contents .con{
     margin-top: 50px;
     float: left;
