@@ -349,7 +349,7 @@ body{
     font-size: 14px;
     color: #666;
     overflow: hidden;
-    text-overflow: clip;
+    text-overflow: ellipsis;
 }
 /* 아래베너 */
 #bottom{
