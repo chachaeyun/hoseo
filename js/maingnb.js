@@ -24,3 +24,9 @@ $(function(){
     easing: "ease-in-out"  // 가속도(timing-function)
   });
 });
+
+$(function(){
+  $('.slide').bxSlider({
+    pager: false,
+  });
+});
