@@ -171,15 +171,15 @@ body{
 }
 /* col배경 및 호버 */
 .col2{ background-image: url(../images/sub_info1.jpg);}
-.col2:hover{ background-image: url(../images/sub_info1-1.png); }
+.col2:hover{ background-image: url(../images/sub_info1-1.jpg); }
 .col3{ background-image: url(../images/sub_info2.jpg); }
-.col3:hover{ background-image: url(../images/sub_info2-1.png); }
+.col3:hover{ background-image: url(../images/sub_info2-1.jpg); }
 .col4{ background-image: url(../images/sub_info3.jpg); }
-.col4:hover{ background-image: url(../images/sub_info3-1.png); }
+.col4:hover{ background-image: url(../images/sub_info3-1.jpg); }
 .col5{ background-image: url(../images/sub_info4.jpg); }
-.col5:hover{ background-image: url(../images/sub_info4-1.png); }
+.col5:hover{ background-image: url(../images/sub_info4-1.jpg); }
 .col6{ background-image: url(../images/sub_info5.jpg); }
-.col6:hover{ background-image: url(../images/sub_info5-1.png); }
+.col6:hover{ background-image: url(../images/sub_info5-1.jpg); }
 /* 메인 컨텐츠 */
 #main_contents{
     padding-top: 50px;
@@ -318,7 +318,7 @@ body{
     text-align: left;
 }
 .notice ul li{
-    line-height: 42px;
+    line-height: 45px;
     border-bottom: 1px solid rgb(219, 219, 219);
 }
 .notice ul li .date{
@@ -339,11 +339,15 @@ body{
     /* border: 1px solid red; */
     text-align: left;
 }
+.review ul li{
+    margin-bottom: 10px;
+}
 .review ul a{
     display: block;
 }
 .review ul .text{
-    margin-top: 7px;
+    margin-left: 10px;
+    margin-top: 3px;
     display: block;
     height: 43px;
     font-size: 14px;

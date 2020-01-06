@@ -339,6 +339,7 @@ body{
 .bx-wrapper .bx-controls-direction a{
     width: 55px !important;
     height: 55px !important;
+    margin-left: 0 !important;
 }
 .bx-wrapper .bx-next{
     background: url('../images/control2-1.png') no-repeat !important;
