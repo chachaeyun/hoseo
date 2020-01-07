@@ -171,15 +171,15 @@ body{
 }
 /* col배경 및 호버 */
 .col2{ background-image: url(../images/sub_info1.jpg);}
-.col2:hover{ background-image: url(../images/sub_info1-1.jpg); }
+.col2:hover{ background-image: url(../images/sub_info1-1.png); }
 .col3{ background-image: url(../images/sub_info2.jpg); }
-.col3:hover{ background-image: url(../images/sub_info2-1.jpg); }
+.col3:hover{ background-image: url(../images/sub_info2-1.png); }
 .col4{ background-image: url(../images/sub_info3.jpg); }
-.col4:hover{ background-image: url(../images/sub_info3-1.jpg); }
+.col4:hover{ background-image: url(../images/sub_info3-1.png); }
 .col5{ background-image: url(../images/sub_info4.jpg); }
-.col5:hover{ background-image: url(../images/sub_info4-1.jpg); }
+.col5:hover{ background-image: url(../images/sub_info4-1.png); }
 .col6{ background-image: url(../images/sub_info5.jpg); }
-.col6:hover{ background-image: url(../images/sub_info5-1.jpg); }
+.col6:hover{ background-image: url(../images/sub_info5-1.png); }
 /* 메인 컨텐츠 */
 #main_contents{
     padding-top: 50px;
